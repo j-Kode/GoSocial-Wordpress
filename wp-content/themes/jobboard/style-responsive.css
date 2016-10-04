@@ -1,0 +1,808 @@
+/*
+Responsive Stylesheet
+
+@since 1.0
+*/
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px){
+	#slider-wrapper .owl-item{
+		min-height:550px;
+	}
+    .container-fluid{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width:1170px;
+    }
+	
+}/*(min-width:1200px)*/
+@media (max-width:360px){
+	.in-homepage #job-listing-tabs ul li{
+		display:block;
+	}
+	.in-homepage .job-listing-name{
+		height:auto !important;
+		max-height:none;
+	}
+	.in-homepage .job-listing-region{
+		border-right:none !important;
+	}
+}
+@media (max-width:760px){
+	.company-list-item .company-list-logo{
+		text-align:left !important;
+	}
+}
+@media (max-width:950px){
+	#footer-widgets .widget-container{
+		min-height:0;
+		height:auto;
+		margin-top:20px;
+		border-right:none;
+		padding:0 15px;
+	}
+}
+@media (max-width:1200px){
+	.in-homepage .job-listing-region{
+		float:left;
+	}
+	.in-homepage .job-company-logo{
+		float:none;
+		display:block;
+	}
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width:991px){
+	
+	#main-menu{
+		text-align:left;
+		padding:0;
+	}
+	#main-menu .nav-menu > li {
+		padding: 0 10px;
+	}
+	#main-menu .nav-menu > li:first-child {
+		padding-left:0;
+	}
+	#main-menu .nav-menu > li:last-child {
+		padding-right:0;
+	}
+	
+	.contact-information{
+		top:580px;
+	}
+	
+	.job-listing-name{
+		margin-left:0;
+		border-left:none;
+	}
+	
+	#sidebar-home{
+		margin-top:50px;
+	}
+	.widget .featured-job-item{
+		width:345px;
+	}
+	.widget .featured-job-detail{
+		min-height:180px;
+	}
+	.step-image:after{
+		width:40px;
+		left:137px;
+	}
+	.step-title{
+		font-size:16px;
+	}
+	.count-text{
+		font-size:16px;
+	}
+	
+	.related-job-listing .job-listing-name{
+		padding-left:10px;
+		width:400px;
+	}
+	.related-job-listing .job-listing-region{
+		width:200px;
+	}
+	
+	.the-job-title{
+		width:200px;
+	}
+	.the-job-title h3{
+		font-size:18px;
+	}
+	.the-job-title p{
+		font-size:12px;
+	}
+	.the-job-company{
+		width:150px;
+		font-size:12px;
+	}
+	.the-job-location,
+	.the-job-type{
+		font-size:12px;
+		width:130px;
+	}
+	.the-job-button .btn-apply-job{
+		font-size:14px;
+	}
+	
+	.upload-post-job-wrapper{
+		margin-bottom:50px;
+	}
+	
+	#register-form-wrapper,
+	#login-form-wrapper{
+		width:100%;
+		margin-bottom:50px;
+	}
+	
+	.account-job-status{
+		text-align:left;
+		margin-top:30px;
+	}
+	.company-list-name{
+		
+	}
+	.company-list-edit, .company-list-delete, .company-list-view{
+		width: 60px;
+		border-right:none !important;
+	}
+	
+	.job-list-item .job-list-title{
+
+	}
+	.job-list-date{
+		padding-left:15px;
+		padding-right:15px;
+		width:auto;
+		display:inline-block;
+	}
+	.job-list-status{
+		width:110px;
+	}
+	.job-list-edit{
+		border-right:none !important;
+	}
+	.job-list-edit,
+	.job-list-delete{
+		width: 50px;
+	}
+	.job-list-featured{
+		width:130px;
+	}
+	
+	.job-list-item .application-list-title{
+		width:200px;
+	}
+	.applicant-list-title-wrapper h4{
+		font-size:16px;
+	}
+	.applicant-list-title-wrapper span{
+		font-size:12px;
+	}
+	.job-list-item .job-list-title{
+		height:auto;
+	}
+	.job-list-item .application-job{
+		width:260px;
+		padding-top:10px;	
+	}
+	
+	.job-list-item .resume-list-title{
+		
+	}
+	.resume-list-title-wrapper h4{
+		font-size:16px;
+	}
+	
+	.frontend-title{
+		font-size:24px;
+	}
+	.company-list-item .company-list-logo, .job-list-item .company-list-logo{
+		text-align:left;
+	}
+	
+}/*(min-width:768px) and (max-width:991px)*/
+
+@media (max-width:875px){
+
+	#main-menu .nav-menu li {
+		display:block;
+		text-align:left;
+		line-height:1em;
+		padding:0;
+	}
+	
+	#main-menu .nav-menu li a{
+		display:block;
+	}
+	
+	#main-menu .sub-menu{
+		position:static;
+	}
+	
+	#main-menu{
+		padding:0;
+	}
+	
+	#header-bar{
+		height:auto;
+	}
+	.jobboard-social-media{
+		text-align:left;
+		margin-top:15px;
+		margin-bottom:10px;
+		vertical-align:middle;
+		display:block;
+		float:left;
+	}
+	.user_menu{
+		width:auto;
+		min-width:initial;
+		padding:0;
+		margin:5px;
+		height:auto;
+		
+		border-radius:0;
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+	}
+	.user_menu .dropdown-menu{
+		right:0;
+		left:initial;
+		width:210px;
+	}
+	.user_menu > a{
+		padding:0;
+		height:auto;
+	}
+	.user_menu > a > img{
+		margin:0;
+		position:static;
+		width:30px;
+		height:auto;
+		
+		border-radius:0;
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+	}
+	.user_menu span,
+	.user_menu i{
+		display:none;
+	}
+	
+	.custom-logo-inactive{
+		padding-bottom:20px;
+	}
+	
+	#main-menu .sub-menu{
+		border-bottom:none;
+	}
+	#main-menu .nav-menu li{
+		border-bottom: 1px solid #D43F3F;
+		font-size:12px;
+	}
+	#main-menu .nav-menu li:last-child{
+		border-bottom:none;
+	}
+	#main-menu > .nav-menu {
+		border-bottom: 1px solid #D43F3F;
+	}
+
+	#main-menu .nav-menu li li a{
+		padding-left:20px;
+	}
+	#main-menu .nav-menu li li a:before{
+		content:"-";
+		margin-right:5px;
+	}
+	#main-menu .nav-menu li li li a{
+		padding-left:30px;
+	}
+	#main-menu .nav-menu li li li a:before{
+		content:"--";
+		margin-right:5px;
+	}
+	#main-menu .nav-menu li a {
+		border-bottom:none;
+		padding:10px 15px;
+	}
+	#main-menu .nav-menu > li > a:hover{
+		border:none;
+		background:#f0f0f0;
+	}
+	
+	#main-menu .nav-menu > li:first-child{
+		border-top:1px solid #D43F3F;
+	}
+	
+	.navbar-toggle{
+		margin-right:0;
+	}
+	
+	#main-menu .nav-menu li.menu-item-has-children > a:after{
+		font-family:fontAwesome;
+		width:35px;
+		text-align:center;
+		content:"\f107";
+		position:absolute;
+		right:0;
+		font-size:20px;
+	}
+	
+	#job-search-form .ui-slider-label{
+		display:none;
+	}
+	
+	#job-search-form .ui-slider .ui-state-hover .ui-slider-tooltip,
+	#job-search-form .ui-slider .ui-state-focus .ui-slider-tooltip,
+	#job-search-form .ui-slider .ui-state-active .ui-slider-tooltip{
+		width:auto;
+		min-width:40px;
+		margin-left:-10px;
+	}
+	
+	.blog-detail-title{
+		font-size:24px;
+		line-height:30px;
+	}
+	
+	.comments-title{
+		font-size:18px;
+	}
+	.comment-form .group-horizontal{
+		margin-bottom:0;
+	}
+	.comment-form .group-horizontal .form-control:first-child{
+		margin-bottom: 32px;
+	}
+	
+	.dashboard-pagination{
+		margin-bottom:30px;	
+	}
+	
+	.contact-information {
+		position:static;
+		width:100%;
+		margin-bottom:50px;
+	}
+	
+	#jobboard-gmaps{
+		height:300px;
+	}
+	
+	.jobboard-login-register{
+		margin-bottom:5px;
+		margin-top:5px;
+		display:block;
+		text-align:center;
+		float:right;
+	}
+	
+	.job-listing-name{
+		margin-left:0;
+		border-left:none;
+		width:20%;
+	}
+	.job-listing-region{
+		border-right:0;
+		width:140px;
+	}
+	.widget .featured-job-item{
+		width:275px;
+	}
+	.widget .featured-job-detail{
+		min-height:190px;
+	}
+	#sidebar-home{
+		margin-top:50px;
+	}
+	#job-listing{
+		padding-bottom:50px;
+	}
+	
+	.job-listing-name{
+		width:25%;
+		border-right:0;
+	}
+	.job-listing-region{
+		padding-left:14px;
+	}
+	
+	#job-stats{
+		padding-bottom:50px;
+	}
+	.job-stats-title,
+	.job-step-title,
+	.testimonials-title,
+	.companies-listing-title{
+		font-size:28px;
+	}
+	.count-text{
+		margin-bottom:30px;
+	}
+	
+	.step-image:after{
+		width:1px;
+		height:50px;
+		left:50%;
+		top:185px;
+	}
+	.step-title{
+		margin-bottom:70px;
+	}
+	.step-number{
+		margin-bottom:15px;
+	}
+	#job-step{
+		padding-bottom:30px;
+	}
+	
+	.related-job-listing .job-listing-name {
+		width:100%;
+		padding-left:15px;
+	}
+	.related-job-listing .job-listing-view {
+		line-height: 50px;
+		padding-left:15px;
+	}
+	
+	.the-job-details > div{
+		float:none;
+		width:100% !important;
+		text-align:left;
+		border-right:none;
+		line-height:2em !important;
+		height:auto;
+	}
+	.the-job-details{
+		padding-bottom:20px;
+	}
+	.the-job-aditional-title{
+		display:block;
+	}
+	.the-job-aditional-title:last-child{
+		margin-left:0;
+	}
+	
+	#upload-post-job .btn-upload-post{
+		max-width:100%;
+	}
+	.upload-post-job-wrapper{
+		margin-bottom:50px;
+	}
+	
+	#register-form-wrapper,
+	#login-form-wrapper{
+		width:100%;
+		margin-bottom:50px;
+	}
+	
+	.company-list-edit, .company-list-delete, .company-list-view{
+		width:60px;
+		border-right:none !important;
+	}
+	
+	.company-list-name{
+		width:100%;
+		border-right:0 !important;
+	}
+	
+	.company-list-item > div,
+	.job-list-item > div{
+		width:100% !important;
+		float:none;
+		border-right:0;
+		padding-left:14px;
+		text-align:left;
+	}
+	.btn-list-delete,
+	.btn-list-featured{
+		padding-left:0;
+	}
+	
+	.job-list-item .resume-list-category{
+		text-align:left;
+	}
+	.jobs-listing-title h3{
+		font-size:18px;
+	}
+	
+	.resume-list-title h4{
+		font-size:18px;
+	}
+	
+	.candidate-button,
+	.frontend-title{
+		text-align:center;
+	}
+	
+	.candidate-button .btn{
+		margin-bottom:15px;
+	}
+	
+	
+}/*(max-width:768px)*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width:400px){
+	.job-list-item .job-list-title {
+		height:auto !important;
+	}
+}
+
+
+/* Small devices (tablets, 768px and up/without max-width) */
+@media (min-width:768px){
+
+	#main-menu .menu-item-has-children:hover > .sub-menu{
+		display:block !important;
+	}
+	
+	#job-search-form .ui-slider .ui-state-hover .ui-slider-tooltip,
+	#job-search-form .ui-slider .ui-state-focus .ui-slider-tooltip,
+	#job-search-form .ui-slider .ui-state-active .ui-slider-tooltip{
+		display:none;
+	}
+
+}/*(min-width:768px)*/
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1199px){
+	
+	#main-menu .nav-menu > li {
+		padding: 0 10px;
+	}
+	
+	.widget .featured-job-item{
+		width:293px;
+	}
+	
+	.widget .featured-job-detail{
+		min-height:200px;
+	}
+	
+	.step-image:after{
+		width:75px;
+	}
+	.step-title{
+		font-size:18px;
+	}
+	
+	.related-job-listing .job-listing-name{
+		width:370px;
+		padding-left:20px;
+	}
+	.related-job-listing .job-listing-region{
+		width:170px;
+	}
+	
+	.the-job-title h3{
+		font-size:18px;
+	}
+	.the-job-title p{
+		font-size:12px;
+	}
+	.the-job-company{
+		width:200px;
+	}
+	
+	#register-form-wrapper,
+	#login-form-wrapper{
+		width:100%;
+	}
+	
+	.account-status-item{
+		padding:3px 15px;
+	}
+	.company-list-name{
+		
+	}
+	.company-list-edit, .company-list-delete, .company-list-view{
+		width:130px;
+	}
+	.job-list-item .job-list-title{
+	}
+	.job-list-status,
+	.job-list-date{
+		display:inline-block;
+		border-right: 1px solid #e3e3e3 !important;
+		min-width:0;
+		width:auto;
+		padding:0 15px !important;
+	}
+	.job-list-date{
+	}
+	.job-list-edit,
+	.job-list-delete{
+		width:90px;
+	}
+	.job-list-featured{
+		width:170px;
+	}
+	
+	.job-list-item .application-list-title{
+		width:230px;
+	}
+	.job-list-item .application-job{
+		width:230px;
+		padding-top:13px;
+	}
+	#applicant-list .job-list-date{
+		
+	}
+	.resume-list-status.application{
+		padding-right:10px;
+		width:170px;
+	}
+	.job-list-item .resume-list-title{
+		width:300px;
+	}
+	.resume-list-title h4{
+		font-size:18px;
+	}
+	#resume-list .resume-list-date{
+		width:130px;
+	}
+
+	
+}/*(min-width:992px) and (max-width:1199px)*/
+@media (max-width:400px){
+	.jobs-listing-title .pull-left, .jobs-listing-title .pull-right{
+		float:none !important;
+	}
+}
+@media (max-width:1199px){
+
+	.container{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	#slider-wrapper .owl-item{
+		min-height:400px;
+	}
+	.banner-caption h1 {
+		font-size: 24px;
+	}
+	.company-list-item > div, .job-list-item > div{
+		float:none;
+		border-right: none;
+	}
+	.job-list-item .resume-list-title {
+		line-height: normal;
+		max-width: 100%;
+		width: 100%;
+	}
+	.job-list-item .resume-list-category {
+		padding: 0 15px;
+		padding-top: 20px;
+		text-align: left;
+		display:inline-block;
+		max-width:none;
+		width:auto;
+		border-right: 1px solid #e3e3e3 !important;
+		margin:0;
+	}
+	.job-list-item .resume-list-date {
+		display:inline-block;
+		border-right: 1px solid #e3e3e3 !important;
+		padding:0 15px;
+		max-width:none;
+		width:auto;
+		margin:0;
+	}
+	.resume-list-status {
+		width:auto;
+		padding: 0 15px;
+		text-align: left;
+		display:inline-block;
+		border-right: 1px solid #e3e3e3 !important;
+	}
+	.resume-list-action {
+		height: 60px;
+		padding: 0 20px;
+		padding-top: 3px;
+		text-align: left;
+		display:inline-block;
+		
+	}
+	.job-listing-region {
+		display:inline-block;
+		width: auto;
+		border-right: 1px solid #e3e3e3 !important;
+		line-height: 20px;
+		padding: 15px;
+        max-width: 170px;
+	}
+	.job-list-item .job-listing-type {
+		min-width:0;
+		width:auto !important;
+		display:inline-block;
+		border-right: 1px solid #e3e3e3;
+		margin-left:0;
+		padding:0 15px;
+	}
+	.job-application-status{
+		width:auto;
+		display:inline-block;
+		margin-left: 0;
+		padding:0 15px;
+	}
+	.company-list-item .company-list-logo, .job-list-item .company-list-logo{
+		text-align:left;
+		display:inline-block;
+	}
+	.account-setting-url {
+		text-transform: uppercase;
+		text-align: right;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.account-job-status {
+		text-align: right;
+		margin-top: 12px;
+	}
+	.company-list-name{
+		display:inline-block;
+		border-right: 1px solid #e3e3e3 !important;
+		width:150px;
+	}
+	.company-list-item .company-list-logo{
+		text-align:center;
+		border-right: 1px solid #e3e3e3 !important;
+	}
+	.company-list-date{
+
+		border-right: 1px solid #e3e3e3 !important;
+		display:inline-block;
+		padding:0 15px;
+	}
+	.company-list-edit, .company-list-delete, .company-list-view{
+		display:inline-block;
+		border-right: 1px solid #e3e3e3 !important;
+
+		text-align:center;
+		padding:0 15px;
+	}
+	.job-list-edit, .job-list-delete, .job-list-featured{
+		display:inline-block;
+		border-right: 1px solid #e3e3e3 !important;
+		width:auto;
+		padding:0 15px;
+	}
+}/*(max-width:1199px)*/
+
+@media (max-width:480px){
+	#jobs-listing ul li {
+		width: 100%;
+	}
+	.related-job-listing .job-listing-view {
+		float: left;
+	}
+}
+@media (max-width:360px){
+	.account-profile-picture img{
+		float:none;
+		margin-bottom:7px;
+	}
+	.account-profile-info h3{
+		margin:3px;
+	}
+	.account-setting-url {
+		text-align: left !important;
+		padding-top:15px !important;
+	}
+	.account-job-status {
+		text-align: left !important;
+		margin-top: 12px;
+	}
+	.related-job-listing .job-listing-region {
+		width: 160px;
+	}
+}

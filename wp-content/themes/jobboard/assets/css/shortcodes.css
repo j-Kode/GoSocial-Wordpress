@@ -1,0 +1,205 @@
+/**
+ * Custom Job Board Shortcode Stylesheets
+ *
+ * @package WordPress
+ * @subpackage Job_Board
+ * @since Job Board 1.0
+ */
+ 
+/*----------------------------------------------------*/
+/*	Title Shortcode	*/
+/*----------------------------------------------------*/
+.sc-title{
+	text-transform:uppercase;
+}
+.sc-title.normal{
+	font-size:18px;
+	margin:15px 0;
+}
+.sc-title.large{
+	font-size:30px;
+}
+
+/*----------------------------------------------------*/
+/*	Unordered List Shortcode	*/
+/*----------------------------------------------------*/
+.sc-ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	padding-top:6px;
+	padding-bottom:20px;
+}
+
+.sc-ul li{
+	position:relative;
+	margin-left:18px;
+	line-height:22px;
+	padding:4px 0;
+}
+.sc-ul .fa{
+	position:absolute;
+	left:-20px;
+	line-height:22px;
+}
+
+/*----------------------------------------------------*/
+/*	Drop Cap Shortcode	*/
+/*----------------------------------------------------*/
+.sc-dropcap{
+	font-size:70px;
+	float:left;
+	line-height:65px;
+	padding:0 10px;
+	margin-right:10px;
+}
+.sc-dropcap.boxed{
+	color:#FFFFFF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+/*----------------------------------------------------*/
+/*	Button Shortcode	*/
+/*----------------------------------------------------*/
+.sc-button{
+	text-transform:uppercase;
+	font-size:16px;
+	text-decoration:none;
+	margin-right:15px;
+	font-weight:300;
+	background:#DDDDDD;
+	color:#FFFFFF;
+	margin-bottom:15px;
+	
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+	transition:all .3s ease;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+}
+.sc-button:hover{ color:#FFFFFF; }
+.sc-button.medium{ padding:10px 29px; }
+.sc-button.large{ padding:12px 34px; font-size:20px; }
+
+.sc-button.green{ background:#4ec6ab; }
+.sc-button.purple{ background:#2980b9; }
+.sc-button.red{ background:#ff8888; }
+.sc-button.athletered{ background:#D70026;
+color: #FFFFFF;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+margin-right: 0px;
+margin-top:10px;
+}
+.sc-button.grey{ background:#d1d1d1; color:inherit; }
+.sc-button.darkgrey{  background:#0a6064; }
+.sc-button.purple:hover{ background:#236fa1; }
+.sc-button.red:hover{ background:#d66666; }
+.sc-button.athletered:hover{ background:#AE2D2D;color:#c2c2c2;}
+.sc-button.grey:hover{ background:#b5afaf; }
+.sc-button.green:hover{ background:#44b098; }
+.sc-button.darkgrey:hover{ background:#085053; }
+
+/*----------------------------------------------------*/
+/*	Alert Shortcode	*/
+/*----------------------------------------------------*/
+.jb-alert{
+	background:#d1d1d1;
+	color:#FFFFFF;
+	font-size:16px;
+	padding:10px 20px 11px;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+.jb-alert .close{
+	right:-2px;
+	color:#FFFFFF;
+	opacity:.8;
+	top:1px;
+}
+.jb-alert .close:hover{
+	 opacity:1;
+}
+
+.jb-alert.danger{ background:#ff8888; }
+.jb-alert.warning{ background:#ffd988; }
+.jb-alert.info{ background:#9ac9e6; }
+.jb-alert.success{ background:#c5e69a; }
+.jb-alert.nopost{ background:#1abc9c; }
+
+
+/*----------------------------------------------------*/
+/*	Accordion Shortcode	*/
+/*----------------------------------------------------*/
+.jb-accordion-wrapper{
+	background:#FFFFFF;
+	border:1px solid #dbdbdb;
+	margin-bottom:25px;
+	
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+.jb-accordion-title{
+	position:relative;
+	background:#d1d1d1;
+	color:#FFFFFF;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	padding:11px 20px 11px;
+	font-size:16px;
+}
+.jb-accordion-title button{
+	position:absolute;
+	right:15px;
+	border:none;
+	background:none;
+	color:#d1d1d1;
+	font-size:12px;
+	padding:0;
+	text-align:center;
+}
+.jb-accordion-title .fa{
+	background:#7d7d7d;
+	text-align:center;
+	width:22px;
+	height:22px;
+	line-height:22px;
+	
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.jb-accordion-title .fa:before{
+	content: "\f078";
+}
+
+.jb-accordion-title .collapsed .fa:before{
+	content: "\f054";
+}
+
+.jb-accordion-content{
+	color:#4f4f4f;
+	padding:20px;
+}
+
+/*----------------------------------------------------*/
+/*	Blockquote Shortcode	*/
+/*----------------------------------------------------*/
+.sc-blockqoute{
+	background:#d1d1d1;
+	border:none;
+	color:#7d7d7d;
+	font-size:18px;
+	line-height:26px;
+	
+	padding:37px 20px 36px;
+	
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}

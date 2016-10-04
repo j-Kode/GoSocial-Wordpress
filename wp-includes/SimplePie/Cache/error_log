@@ -1,0 +1,11 @@
+[08-Mar-2015 09:41:38 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[10-Mar-2015 19:27:31 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[11-Mar-2015 02:33:46 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[13-Mar-2015 09:17:55 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[13-Mar-2015 22:29:34 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[23-Mar-2015 00:44:32 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/DB.php on line 52
+[24-Mar-2015 20:02:48 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/DB.php on line 52
+[22-May-2015 13:36:48 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/DB.php on line 52
+[22-May-2015 22:50:20 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/File.php on line 52
+[30-May-2015 18:10:27 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/DB.php on line 52
+[31-May-2015 01:35:40 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/trainev0/public_html/beta/wp-includes/SimplePie/Cache/File.php on line 52
